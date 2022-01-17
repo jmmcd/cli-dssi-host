@@ -1,0 +1,23 @@
+Version 0.1.1:
+-------------
+Can now do multiple configure key-value pairs.
+
+Added an assert(isfinite()) to check synth output.
+
+
+Version 0.1.2:
+-------------
+Some cleaning up.
+
+Default midi note is now middle C (note 60).
+
+Added -p -2 option - generates random port values.
+
+
+Version 0.1.3:
+-------------
+New option, -b, clips out-of-bounds data, including NaN and Inf,
+instead of just exiting.
+
+New option, -r, sets the length of the release tail. Omit it to allow the
+release tail to die to silence (up to maximum of 15s).
